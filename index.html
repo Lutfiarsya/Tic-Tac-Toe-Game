@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe</title>
+    <link rel="stylesheet" href="tic.css">
+    <script  src="tic.js"></script>
+</head>
+<body>
+    <h1>TIC-TAC-TOE</h1>
+    <br>
+    <p id="caption">Game dimulai setelah memencet kotaknya<br><br>
+    first player as <b>X</b> and second player as <b>O</b></p>
+
+    <br><br>
+
+    <div class="container">
+        <div class="row">
+            <input type="text" id="kotak1" onclick="kotak1(); kotak();" class="cell">
+
+            <input type="text" id="kotak2" onclick="kotak2(); kotak();" class="cell">
+
+            <input type="text" id="kotak3" onclick="kotak3(); kotak();" class="cell">
+        </div>
+        <div class="row">
+            <input type="text" id="kotak4" onclick="kotak4(); kotak();" class="cell">
+
+            <input type="text" id="kotak5" onclick="kotak5(); kotak();" class="cell">
+
+            <input type="text" id="kotak6" onclick="kotak6(); kotak();" class="cell">
+        </div>
+        <div class="row">
+            <input type="text" id="kotak7" onclick="kotak7(); kotak();" class="cell">
+
+            <input type="text" id="kotak8" onclick="kotak8(); kotak();" class="cell">
+
+            <input type="text" id="kotak9" onclick="kotak9(); kotak();" class="cell">
+        </div>
+        <br><br>
+        <button id="reset" onclick="Reset()">Reset</button>
+        <br><br>
+        <p id="print"></p>
+
+
+    </div>
+</body>
+</html>
