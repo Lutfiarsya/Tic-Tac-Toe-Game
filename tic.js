@@ -217,6 +217,7 @@ if(kotak7 == 'X' &&  kotak8 == 'X' && kotak9 == 'X')
        btn1.disabled = true;
        btn2.disabled = true;
        btn4.disabled = true;
+       
        btn7.disabled = true;
        btn5.disabled = true;
        btn8.disabled = true;
