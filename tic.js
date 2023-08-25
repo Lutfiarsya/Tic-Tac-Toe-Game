@@ -1,6 +1,4 @@
-
 //Code by lutpay
-
 
 function kotak(){
 let kotak1, kotak2, kotak3, kotak4, kotak5, kotak6, kotak7, kotak8, kotak9;
@@ -123,9 +121,9 @@ if(kotak7 == 'X' &&  kotak8 == 'X' && kotak9 == 'X')
     btn6.disabled = true;
 
 
-}else if(kotak7 == 'O' &&  kotak8 == 'O' && kotak9 == 'O')
-    {let result = document.getElementById('print')
-     result.innerHTML = 'player O win'
+}else if(kotak7 == 'O' &&  kotak8 == 'O' && kotak9 == 'O') {
+    let result = document.getElementById('print')
+    result.innerHTML = 'player O win'
 
     btn7.style.color = 'blue';
     btn8.style.color = 'blue';
@@ -209,6 +207,72 @@ if(kotak7 == 'X' &&  kotak8 == 'X' && kotak9 == 'X')
        btn6.disabled = true;
     }
    if(kotak3 == 'X' &&  kotak6 == 'X' && kotak9 == 'X') 
+     {
+       let result = document.getElementById('print')
+       result.innerHTML = 'player X win';
+       btn3.style.color = 'blue'; 
+       btn6.style.color = 'blue';
+       btn9.style.color = 'blue';
+
+       btn1.disabled = true;
+       btn2.disabled = true;
+       btn4.disabled = true;
+       btn7.disabled = true;
+       btn5.disabled = true;
+       btn8.disabled = true;
+     }
+    
+    else if(kotak3 == 'O' &&  kotak6 == 'O' && kotak9 == 'O')
+    {
+      let result = document.getElementById('print')
+      result.innerHTML = 'player O win' 
+   
+       btn3.style.color = 'blue';
+       btn6.style.color = 'blue';
+       btn9.style.color = 'blue';
+
+       btn1.disabled = true;
+       btn2.disabled = true;
+       btn4.disabled = true;
+       btn7.disabled = true;
+       btn5.disabled = true;
+       btn8.disabled = true;
+    };
+
+    if(kotak3 == 'X' &&  kotak5 == 'X' && kotak7 == 'X') 
+     {
+       let result = document.getElementById('print')
+       result.innerHTML = 'player X win';
+       btn3.style.color = 'blue'; 
+       btn5.style.color = 'blue';
+       btn7.style.color = 'blue';
+
+       btn1.disabled = true;
+       btn2.disabled = true;
+       btn4.disabled = true;
+       btn9.disabled = true;
+       btn6.disabled = true;
+       btn8.disabled = true;
+     }
+    
+    else if(kotak3 == 'O' &&  kotak5 == 'O' && kotak7 == 'O')
+    {
+      let result = document.getElementById('print')
+      result.innerHTML = 'player O win' 
+   
+       btn3.style.color = 'blue';
+       btn5.style.color = 'blue';
+       btn7.style.color = 'blue';
+
+       btn1.disabled = true;
+       btn2.disabled = true;
+       btn4.disabled = true;
+       btn9.disabled = true;
+       btn6.disabled = true;
+       btn8.disabled = true;
+    };
+
+    if(kotak3 == 'X' &&  kotak6 == 'X' && kotak9 == 'X') 
      {
        let result = document.getElementById('print')
        result.innerHTML = 'player X win';
