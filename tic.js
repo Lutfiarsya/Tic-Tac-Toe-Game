@@ -205,38 +205,40 @@ if(kotak7 == 'X' &&  kotak8 == 'X' && kotak9 == 'X')
        btn9.disabled = true;
        btn7.disabled = true;
        btn6.disabled = true;
-    }
-   if(kotak3 == 'X' &&  kotak6 == 'X' && kotak9 == 'X') 
+    };
+
+
+   if(kotak3 == 'X' &&  kotak5 == 'X' && kotak9 == 'X') 
      {
        let result = document.getElementById('print')
        result.innerHTML = 'player X win';
+
        btn3.style.color = 'blue'; 
-       btn6.style.color = 'blue';
+       btn5.style.color = 'blue';
        btn9.style.color = 'blue';
 
        btn1.disabled = true;
        btn2.disabled = true;
        btn4.disabled = true;
-       
        btn7.disabled = true;
-       btn5.disabled = true;
+       btn6.disabled = true;
        btn8.disabled = true;
      }
     
-    else if(kotak3 == 'O' &&  kotak6 == 'O' && kotak9 == 'O')
+    else if(kotak3 == 'O' &&  kotak5 == 'O' && kotak9 == 'O')
     {
       let result = document.getElementById('print')
       result.innerHTML = 'player O win' 
    
        btn3.style.color = 'blue';
-       btn6.style.color = 'blue';
+       btn5.style.color = 'blue';
        btn9.style.color = 'blue';
 
        btn1.disabled = true;
        btn2.disabled = true;
        btn4.disabled = true;
        btn7.disabled = true;
-       btn5.disabled = true;
+       btn6.disabled = true;
        btn8.disabled = true;
     };
 
